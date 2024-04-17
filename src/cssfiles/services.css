@@ -1,0 +1,35 @@
+.Servicesh1{
+    /* color: #E3A619; */
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 3%;
+    font-size:3rem;
+    padding-bottom: 5%;
+}
+.cardbox{
+    width:25%;
+    /* padding-left: 2%; */
+    padding-right: 10%;
+    
+    /* margin-left: 10%; */
+    
+    
+}
+.cardbox img{
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 28%;
+}
+.cardbox h2{
+    margin-top: 3%;
+    text-align: center;
+}
+.cardbox p{
+    margin-top: -5%;
+    font-size: large;
+    text-align: center;
+}
+.servicebg{
+    padding-bottom: 3%;
+    background-color:#E0DDD6 ;
+}

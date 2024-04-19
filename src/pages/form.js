@@ -34,7 +34,7 @@ const getCount = async()=>{
   const uploadresult = await uploadBytes(imageRef,images);
   const totallen= await getCountFromServer(collection(firestore,'spices'));
   console.log('count',totallen.data().count);
-  if(email=="cakranjithk@gmail.com" && pasword=="apple"){
+  if(email=="cakranjithk@gmail.com" && pasword=="KavinBalaExports@061"){
     
     const result= addDoc(collection(firestore,'spices'),{
       int:totallen.data().count+1,

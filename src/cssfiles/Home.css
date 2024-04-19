@@ -6,6 +6,9 @@
     height: 40vw;
     opacity: 75%;
 }
+.sizing{
+    height:80vw
+}
 .whychooseus{
     width: 100%;
     background-color: rgba(224, 221, 214, 0.84);

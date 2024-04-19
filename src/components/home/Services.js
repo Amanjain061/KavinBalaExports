@@ -8,9 +8,15 @@ import image4 from "../../images/Certificate.png"
 import image5 from "../../images/Online Support.png"
 import Servicescard from "./servicecard";
 function Services(){
-    return (<div className="servicebg">
-    <h1 className="Servicesh1">OUR SERVICES</h1>
-    <div style={{display:"flex",flexDirection:"row",marginLeft:"5%",marginTop:"-2%"}}>
+    return (<div className="text-center bg-primary">
+    <h1 className="text-xl pt-10 mb-10 mt-10 font-bold lg:text-4xl">OUR SERVICES</h1>
+    <div className="flex flex-row  ml-2 mr-2">
+    <Servicescard 
+        img={image2}
+        heading={"Customized Packaging"}
+        para={"Provide customizable packaging, options for bulk packaging for commercial clients & retail ready packaging for consumers"}
+
+    />
         <Servicescard 
         img={image}
         heading={"Global Sourcing"}
@@ -23,17 +29,12 @@ function Services(){
         para={"highest quality standards for all spices,quality control measures of the sourcing, processing, and packaging."}
 
     />
-    <Servicescard 
-        img={image2}
-        heading={"Customized Packaging"}
-        para={"Provide customizable packaging, options for bulk packaging for commercial clients & retail ready packaging for consumers"}
-
-    />
+   
     </div>
     <br>
 
     </br>
-    <div style={{display:"flex",flexDirection:"row",marginLeft:"5%",marginTop:"2%"}}>
+    <div className="flex flex-row text-center ml-5 mr-5">
         <Servicescard 
         img={image3}
         heading={"Logistics and Shipping"}

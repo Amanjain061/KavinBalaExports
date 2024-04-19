@@ -4,12 +4,15 @@ import image from "../images/homepagecontainer.jpg"
 function Homebj(){
     return(
         <div>
-        <div style={{position:"relative"}}>
-            <img src={image} className="bgimage"></img>
-            <p className="hometext">From <span className="spantext">farm </span>to <span className="spantext">table</span> </p>
-            <p className="hometext2">our <span className="spantext2">spices </span>travel the <span className="spantext2">globe.</span> </p>
-            <p className="hometext3">Discover a faster way of shipping</p>
-        </div>
+        <div >
+        
+       <div> <img src={image} className="w-full h-40 lg:w-full lg:h-svh opacity-75"></img></div>
+        <p className="absolute top-0 mt-24 ml-5 font-bold lg:text-7xl lg:top-40 ">From <span className="text-white">farm </span>to <span className="text-white">table</span> </p>
+        <p className="absolute top-10 mt-20 ml-5 font-bold lg:text-7xl lg:top-64 ">our <span className="text-white">spices </span>travel the <span className="text-white">globe.</span> </p>
+        <p className="absolute top-0  mt-44 font-bold ml-5 text-white lg:text-4xl lg:top-64 opacity-75	">Discover a faster way of shipping</p>
+   
+    </div>
+       
         </div>
     );
 }

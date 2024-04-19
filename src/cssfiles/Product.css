@@ -4,21 +4,19 @@
 
 }
 .Productcardbox img{
-    margin: 2%;
-    margin-left: 12%;
+   
 
 }
 .Productcardbox div{
-    margin-left: 8%;
-    width:50%
+    
 }
 
 .Productcardbox h1{
     /* margin-left: 200%; */
 }
 .Productcardbox p{
-    font-size: 2rem;
-    width: 80%;
+    
+    
 }
 .productCradBox2{
     display: flex;
@@ -26,16 +24,14 @@
 
 }
 .productCradBox2 img{
-    margin: 2%;
-    margin-right: 12%;
+    
 }
 .productCradBox2 div{
-    margin-right: 8%;
-    width: 50%;
+   
 }
 .productCradBox2 p{
-    font-size: 2rem;
-    width: 80%;
+   
+   
 }
 
 

@@ -11,6 +11,7 @@ function About(){
         <Ourproducts />
         <Card /> 
         <Footer /> 
+        
         </div>
     );
 }

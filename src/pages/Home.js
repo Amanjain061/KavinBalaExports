@@ -13,12 +13,16 @@ function Home(){
     return(
         <div>
         <Navbar />
-        <Homebg />
+         <Homebg />
         <Services />
         <World />
         <Ourprocess />
         <Whychosse />
-        <Speak />
+        <Speak /> 
+        <Footer />
+       
+
+       
         </div>
     );
 }

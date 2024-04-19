@@ -24,7 +24,7 @@ useEffect(()=>{
        
        
     return(
-        <div style={{backgroundColor:"rgba(224, 221, 214, 0.84)"}}>
+        <div className="bg-primary pb-10 pt-10">
         {spice.map((spice)=>(<Design {...spice.data()}/>))}
         
         

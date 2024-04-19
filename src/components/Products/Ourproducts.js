@@ -3,12 +3,12 @@ import image from "../../images/bigimage.png"
 function Products(){
     return (
         <div>
-            <div style={{textAlign:"center"}}>
-                <h1 style={{fontSize:"4rem"}}>
+            <div className="text-center lg:mt-8 lg:mb-8">
+                <h1 className="text-2xl font-bold mt-5 pb-5 lg:text-4xl lg:mb-8">
                     OUR PRODUCTS
                 </h1>
                 {/* <img src={image} style={{height:"40rem"}}></img> */}
-                <p style={{marginLeft:"25%",width:"50%",fontSize:"1.5rem",marginTop:"5%"}}>Elevate your culinary creations with our premium selection of 
+                <p className="text-sm ml-5 mr-5 lg:text-lg lg:ml-8 lg:mr-8">Elevate your culinary creations with our premium selection of 
 imported spices sourced from around the globe. Indulge your 
 senses in a journey of exquisite flavors with our extensive 
 range of imported spices, meticulously sourced from the 
@@ -20,7 +20,7 @@ caters to every palate and recipe. Discover the essence of
 culinary excellence with our top-quality spices, guaranteed to 
 add depth and authenticity to your dishes.</p>
             </div>
-            <div style={{width:"98%",marginLeft:"1%",height:"0.5rem",backgroundColor:"#0C0C0C",opacity:"25%",marginTop:"5%",marginBottom:"5%",borderRadius:"10px"}}></div>
+            <div className="w-100 ml-1 mt-10 mb-10 mr-1 h-2 bg-linecolor rounded-md	mt-5 lg:mt-10"></div>
 
         </div>
     );

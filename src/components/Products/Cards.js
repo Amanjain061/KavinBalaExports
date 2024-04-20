@@ -23,11 +23,12 @@ useEffect(()=>{
         
        
        
-    return(
-        <div className="bg-primary pb-10 pt-10">
+    return(<div>
+        <div className="bg-primary  pt-10">
         {spice.map((spice)=>(<Design {...spice.data()}/>))}
-        
-        
+        </div>
+        <div className="w-100 ml-1 mt-8 -mb-20 mr-1 h-2 bg-linecolor rounded-md	 lg:mt-10"></div>
+
         </div>
         
     );

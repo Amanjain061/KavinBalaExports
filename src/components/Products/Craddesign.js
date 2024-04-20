@@ -24,13 +24,13 @@ function Carddesign(props){
    })
    return(
         
-        <div className="pb-12">
+        <div className="pb-8">
 
         <div className={a} >
             <img className=" w-40 h-52 ml-2 mr-2 lg:m-8 lg:ml-16 lg:mr-16 lg:w-96 lg:h-96" src={url}></img>
             <div className="text-center lg:w-full lg:ml-5 lg:mr-5 lg:mt-16">
             <h1 className=" text-2xl  lg:text-5xl">{props.spicename}</h1>
-            <p className="text-kavin  ml-16 mr-5 w-36 text-xs lg:text-2xl lg:w-3/4 lg:ml-28 lg:mt-8">{props.paraa}</p>
+            <p className="text-kavin  ml-12 mr-5 w-36 text-xs lg:text-2xl lg:w-3/4 lg:ml-28 lg:mt-8">{props.paraa}</p>
             <p className="ml-5 mr-5  text-xs lg:text-2xl lg:ml-24 lg:w-3/4  lg:mt-8">{props.parab}</p>
 
             </div>

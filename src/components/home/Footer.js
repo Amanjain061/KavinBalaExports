@@ -8,7 +8,7 @@ function Footer(){
     return(<div className="content-center lg:w-full mt-16">       
    <div className="lg:flex lg:flex-row lg:-mt-12">
         <div className="   ">
-            <img className="w-20 mt-10 ml-40  lg:w-36 lg:ml-32" src={logo}></img>
+            <img className="w-28 mt-10 ml-36  lg:w-36 lg:ml-32" src={logo}></img>
             
             
         
@@ -26,23 +26,23 @@ authenticity in every spice journey.</p>
 
 
         <div className="mr-5 ml-5">
-            <h1 className="text-sm font-bold lg:text-2xl">
+            <h1 className="text-base font-bold lg:text-2xl">
             Explore
             </h1>
             
-            <h2 className="text-xs mt-2 lg:text-lg"><Link to="/Products" onClick={window.screenTop} >Products</Link></h2>
+            <h2 className="text-sm mt-2 lg:text-lg"><Link to="/Products" onClick={window.screenTop} >Products</Link></h2>
         </div>
 
 
 
 
 
-        <div className="ml-5  lg:ml-32 lg:mr-28">
-             <h1 className="text-sm font-bold lg:text-2xl">
+        <div className="ml-2  lg:ml-32 lg:mr-28">
+             <h1 className="text-base font-bold lg:text-2xl">
              Contact Us
             </h1>
-            <h2 className="lg:text-lg"><a href="tel:+919344709123">9344709123</a></h2>
-            <h2 className="text-xs lg:text-lg "><a href="mailTo:kavinbalaexports@gmail.com
+            <h2 className="text-sm lg:text-lg"><a href="tel:+919344709123">9344709123</a></h2>
+            <h2 className="text-sm lg:text-lg "><a href="mailTo:kavinbalaexports@gmail.com
 ">kavinbalaexports@gmail.com</a></h2>
 
         </div>
@@ -56,13 +56,13 @@ authenticity in every spice journey.</p>
              <h1 className="text-sm font-bold lg:text-2xl">
              Follow Us            </h1>
              <div className="flex mt-2 ">
-             <img className="w-8 h-8 lg:mr-8" src={image}></img>
+             <img className="w-8 h-8 " src={image}></img>
              <img  className="w-8 h-8" src={image1}></img>
              </div>
         </div>
         </div>
         </div>
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 pb-5">
         <h2 >Admin? <button style={{background: "none",
     border: "none",
     textDecoration:"underline"}}><Link to="/data">Login</Link></button></h2>

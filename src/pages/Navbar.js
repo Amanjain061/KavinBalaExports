@@ -15,7 +15,7 @@ function Nav(){
        <div className="w-full">
         <div className="flex flex-row w-full ">
             <div >
-         <img  className="w-20 mt-6 ml-5 lg:mr-96 lg:ml-4 lg:w-36 "src={image3}></img>
+         <img  className="w-44 h-4 mt-6 ml-5 lg:mr-96 lg:ml-4 lg:w-36 "src={image3}></img>
          </div>
         <div className="lg:ml-96">
             <ul className=" flex md:flex md:flex-grow flex-row-reverse  ml-20 mb-25 my-5 lg:flex-row-reverse  ">
